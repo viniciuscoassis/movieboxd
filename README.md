@@ -12,48 +12,46 @@ dump.sql
 
 ## Functionalities
 
-- Post Movies
-- Get Movies
-- link shortener
-- links visits rank
-- check your links
+- Post new Movies
+- Get all Movies
+- Update views (add +1)
+- Delete Movies
+- Post rates (from 0 to 5)
+- Get average avaliation from movies
 
 ## Stack
 
-**Back-end:** Node, Express
+**Back-end:** Node, Typescript, Express
 
-- bcrypt: encrypt sensitive data
 - joi: all validations
-- nanoid: generate random code for shortened urls
-- uuid: generate session token
 
 **Database**: Postgres
 
 ## Learnings
 
-Learned how to develop a complete API with genuine functionality from scratch, using popular tools from actual market such as node.js and express, also dealing with SQL Database Postgres.
+Learned how to facilitate the code writting by using types from typescript
 
 ## Rodando localmente
 
-Clone o projeto
+Clone the project
 
 ```bash
-  git clone https://github.com/viniciuscoassis/projeto16-shortly.git
+  git clone https://github.com/viniciuscoassis/movieboxd.git
 ```
 
-Entre no diretório do projeto
+Get in the projects directory
 
 ```bash
   cd my-project
 ```
 
-Instale as dependências
+Install all dependencies
 
 ```bash
   npm install
 ```
 
-Inicie o servidor
+Initialize
 
 ```bash
   npm run start
